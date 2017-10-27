@@ -528,8 +528,8 @@ img {
 @media screen and (max-width:768px) {
 	.row {
 		width: auto;
-		padding-left: 30px;
-		padding-right: 30px;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	.row .row {
@@ -580,8 +580,8 @@ img {
 --------------------------------------------------------------- */
 @media screen and (max-width:600px) {
 	.row {
-		padding-left: 25px;
-		padding-right: 25px;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	.row .row {
@@ -620,8 +620,8 @@ img {
 --------------------------------------------------------------- */
 @media screen and (max-width:400px) {
 	.row {
-		padding-left: 30px;
-		padding-right: 30px;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	.row .row {

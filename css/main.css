@@ -549,8 +549,8 @@ main .site-header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 116px;
-	height: 80px;
+	width: 315px;
+	height: 210px;
 	background: url("../images/logo/logo@2x.png") no-repeat;
 	background-size: contain;
 }
@@ -573,8 +573,8 @@ main .site-header .logo a {
 	}
 
 	main .site-header .logo a {
-		width: 104px;
-		height: 72px;
+		width: 315px;
+		height: 210px;
 	}
 
 }
@@ -631,8 +631,7 @@ main .site-header .logo a {
 	}
 
 	main .site-header .logo a {
-		width: 95px;
-		height: 66px;
+		
 	}
 
 }
@@ -745,9 +744,9 @@ main .site-header .logo a {
 	color: rgba(0, 0, 0, 0.7);
 	line-height: 30px;
 	padding: 12px 15px 12px 20px;
-	border-radius: 3px 0 0 3px;
+	border-radius: 3px;
 	background: rgba(255, 255, 255, 0.25);
-	width: 70%;
+	width: 100%;
 }
 
 #mc-signup input[type="submit"] {
@@ -757,9 +756,9 @@ main .site-header .logo a {
 	line-height: 30px;
 	height: 54px;
 	padding: 12px 25px 12px 25px;
-	border-radius: 0 3px 3px 0;
+	border-radius: 3px;
 	background: white;
-	width: 30%;
+	width: 100%;
 	text-align: center;
 	color: black;
 	-moz-transition: all 0.3s ease-in-out;
@@ -829,8 +828,8 @@ main .site-header .logo a {
 	#mc-signup input[type="email"] {
 		width: 100%;
 		float: none;
-		margin-bottom: 0;
-		border-radius: 3px 3px 0 0;
+		margin-bottom: 10px;
+		border-radius: 3px;
 		text-align: center;
 	}
 
@@ -1138,7 +1137,7 @@ main .site-header .logo a {
 	color: transparent;
 	width: 70px;
 	height: 56px;
-	background: url("../images/users@2x.png") no-repeat;
+	background: url("../images/logo/logo@2x.png") no-repeat;
 	background-size: contain;
 }
 

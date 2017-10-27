@@ -118,12 +118,12 @@
 	------------------------------------------------------ */
 
 	// Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
-	var mailChimpURL = 'http://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e65110b38d'
+	var mailChimpURL = 'https://beerloot.us17.list-manage.com/subscribe/post?u=e87163f45730645dddee74341&amp;id=a8f37cbca0'
 
 
 	$('#mc-form').ajaxChimp({
 
-		language: 'es',
+		language: 'pt-br',
 	   url: mailChimpURL
 
 	});
@@ -140,13 +140,13 @@
 	//  5: 'This email address looks fake or invalid. Please enter a real email address'
 
 	$.ajaxChimp.translations.es = {
-	  'submit': 'Submitting...',
-	  0: '<i class="fa fa-check"></i> We have sent you a confirmation email',
-	  1: '<i class="fa fa-warning"></i> You must enter a valid e-mail address.',
-	  2: '<i class="fa fa-warning"></i> E-mail address is not valid.',
-	  3: '<i class="fa fa-warning"></i> E-mail address is not valid.',
-	  4: '<i class="fa fa-warning"></i> E-mail address is not valid.',
-	  5: '<i class="fa fa-warning"></i> E-mail address is not valid.'
+	  'submit': 'Enviando...',
+	  0: '<i class="fa fa-check"></i> Nós enviamos um email de confirmação.',
+	  1: '<i class="fa fa-warning"></i> Você precisa usar um email válido.',
+	  2: '<i class="fa fa-warning"></i> Endereço de email inválido.',
+	  3: '<i class="fa fa-warning"></i> Endereço de email inválido.',
+	  4: '<i class="fa fa-warning"></i> Endereço de email inválido.',
+	  5: '<i class="fa fa-warning"></i> Endereço de email inválido.'
 	}
 
 	/*---------------------------------------------------- */
