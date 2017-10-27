@@ -1561,6 +1561,14 @@ footer a:focus {
     filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='svgMask'><feGaussianBlur stdDeviation='10' /></filter></svg>#svgMask");
 }
 #box {
+  border-radius: 10px;
+border-right-radius: 0;
+-moz-border-radius: 10px;
+-moz-border-right-radius: 0;
+-webkit-border-radius: 10px;
+-webkit-border-right-radius: 0;
+-o-border-radius: 10px;
+-o-border-right-radius: 0;
   padding: 20px;
   background: rgb(0,0,0); /* for IE */
   background: rgba(0,0,0,0.65);
