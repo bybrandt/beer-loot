@@ -123,7 +123,7 @@
 
 	$('#mc-form').ajaxChimp({
 
-		language: 'pt-br',
+		language: 'es',
 	   url: mailChimpURL
 
 	});
